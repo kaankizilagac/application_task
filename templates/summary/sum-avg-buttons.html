@@ -1,0 +1,6 @@
+<a href="{% url "summary" %}">
+  <button type="button" class="btn btn-primary {% if active_btn != 'avg' %}active{% endif %}">Sum</button>
+</a>
+<a href="{% url "summary-average" %}">
+  <button type="button" class="btn btn-primary {% if active_btn == 'avg' %}active{% endif %}">Average</button>
+</a>

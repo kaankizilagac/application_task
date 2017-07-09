@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Site Details - {{ site.name }}</h1>
+
+  <table class="table">
+    <thead>
+    <tr>
+      <td><strong>Date</strong></td>
+      <td><strong>A Value</strong></td>
+      <td><strong>B Value</strong></td>
+    </tr>
+    </thead>
+    {% for summary in site.summaries.all %}
+      <tr>
+        <td>{{ summary.created_at }}</td>
+        <td>{{ summary.value_a }}</td>
+        <td>{{ summary.value_b }}</td>
+      </tr>
+    {% empty %}
+      <tr><td colspan="3">No value.</td></tr>
+    {% endfor %}
+
+
+
+
+
+  </table>
+{% endblock content %}

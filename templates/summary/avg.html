@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Average</h1>
+
+  {% include "summary/sum-avg-buttons.html" %}
+
+  <table class="table">
+    <thead>
+    <tr>
+      <td><strong>Site</strong></td>
+      <td><strong>A Value</strong></td>
+      <td><strong>B Value</strong></td>
+    </tr>
+    </thead>
+{% for avg in avg_list %}
+    <tr>
+      <td>{{ avg.site }}</td>
+      <td>{{ avg.value_a }}</td>
+      <td>{{ avg.value_b}}</td>
+    </tr>
+{% endfor %}
+
+  </table>
+{% endblock content %}

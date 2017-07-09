@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3MW - Application Task</title>
+  <meta name="viewport" content="width=520, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+
+<!-- Static navbar -->
+<nav class="navbar navbar-default">
+  <div id="navbar" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+      <li role="presentation" {% if active == 'sites' %}class="active"{% endif %}>
+        <a href="{% url "sites:list" %}">Sites</a>
+      </li>
+      <li {% if active == 'summary' %}class="active"{% endif %} role="presentation">
+        <a href="{% url "summary" %}">Summary</a>
+      </li>
+    </ul>
+  </div><!--/.nav-collapse -->
+</nav>
+
+
+<div class="container">
+  {% block content %}{% endblock content %}
+</div>
+
+
+</body>
+</html>
