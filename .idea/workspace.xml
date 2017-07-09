@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de45758d-117c-4b2a-8a08-f44577c1621b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/summary/views.py" afterPath="$PROJECT_DIR$/apps/summary/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,13 +57,13 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/summary/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            <state relative-caret-position="522">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
-                <marker date="1499540084900" expanded="true" signature="2008:2077" ph="SELECT * FRO... summary_summary" />
-                <marker date="1499540084900" expanded="true" signature="2008:2091" ph="SELECT site,... summary_summary" />
-                <marker date="1499540084900" expanded="true" signature="2008:2094" ph="SELECT site_... summary_summary" />
+                <marker date="1499636127933" expanded="true" signature="1913:1982" ph="SELECT * FRO... summary_summary" />
+                <marker date="1499636127933" expanded="true" signature="1913:1996" ph="SELECT site,... summary_summary" />
+                <marker date="1499636127933" expanded="true" signature="1913:1999" ph="SELECT site_... summary_summary" />
               </folding>
             </state>
           </provider>
@@ -162,8 +162,8 @@
         <option value="$PROJECT_DIR$/conf/urls.py" />
         <option value="$PROJECT_DIR$/templates/summary/sum-avg-buttons.html" />
         <option value="$PROJECT_DIR$/templates/sites/detail.html" />
-        <option value="$PROJECT_DIR$/apps/summary/views.py" />
         <option value="$PROJECT_DIR$/templates/summary/avg.html" />
+        <option value="$PROJECT_DIR$/apps/summary/views.py" />
       </list>
     </option>
   </component>
@@ -518,11 +518,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1442" height="900" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2534722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917705" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917705" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -559,9 +559,9 @@
           <caret line="66" column="8" lean-forward="false" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="127" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
-            <marker date="1499540084900" expanded="true" signature="2008:2077" ph="SELECT * FRO... summary_summary" />
-            <marker date="1499540084900" expanded="true" signature="2008:2091" ph="SELECT site,... summary_summary" />
-            <marker date="1499540084900" expanded="true" signature="2008:2094" ph="SELECT site_... summary_summary" />
+            <marker date="1499636127933" expanded="true" signature="1913:1982" ph="SELECT * FRO... summary_summary" />
+            <marker date="1499636127933" expanded="true" signature="1913:1996" ph="SELECT site,... summary_summary" />
+            <marker date="1499636127933" expanded="true" signature="1913:1999" ph="SELECT site_... summary_summary" />
           </folding>
         </state>
       </provider>
@@ -624,9 +624,9 @@
           <caret line="72" column="36" lean-forward="false" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
-            <marker date="1499540084900" expanded="true" signature="2008:2077" ph="SELECT * FRO... summary_summary" />
-            <marker date="1499540084900" expanded="true" signature="2008:2091" ph="SELECT site,... summary_summary" />
-            <marker date="1499540084900" expanded="true" signature="2008:2094" ph="SELECT site_... summary_summary" />
+            <marker date="1499636127933" expanded="true" signature="1913:1982" ph="SELECT * FRO... summary_summary" />
+            <marker date="1499636127933" expanded="true" signature="1913:1996" ph="SELECT site,... summary_summary" />
+            <marker date="1499636127933" expanded="true" signature="1913:1999" ph="SELECT site_... summary_summary" />
           </folding>
         </state>
       </provider>
@@ -773,13 +773,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/summary/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="522">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
-            <marker date="1499540084900" expanded="true" signature="2008:2077" ph="SELECT * FRO... summary_summary" />
-            <marker date="1499540084900" expanded="true" signature="2008:2091" ph="SELECT site,... summary_summary" />
-            <marker date="1499540084900" expanded="true" signature="2008:2094" ph="SELECT site_... summary_summary" />
+            <marker date="1499636127933" expanded="true" signature="1913:1982" ph="SELECT * FRO... summary_summary" />
+            <marker date="1499636127933" expanded="true" signature="1913:1996" ph="SELECT site,... summary_summary" />
+            <marker date="1499636127933" expanded="true" signature="1913:1999" ph="SELECT site_... summary_summary" />
           </folding>
         </state>
       </provider>
