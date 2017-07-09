@@ -63,7 +63,6 @@ class AverageView(ActiveMixin, TemplateView):
 
     @staticmethod
     def get_avgs():
-        #todo: siteye göre gruplayıp her bir sitenin value_a ve value_b sinin ortalamasını bul
         summary = Summary.objects.raw('SELECT site_id AS id, AVG(value_a), AVG(value_b) FROM summary_summary GROUP BY site_id')
         print(summary)
         return summary
